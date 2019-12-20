@@ -6,14 +6,14 @@
 // https://v1.vuepress.vuejs.org/config/
 
 module.exports = {
-  title: 'VuePress + CodeSandbox',
-  description: 'VuePress starter template for CodeSandbox',
+  title: "Onset guide ",
+  description: "An Onset guide for who wants some informations",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'VuePress', link: 'https://vuepress.vuejs.org/' },
-      { text: 'GitHub', link: 'https://github.com/vicbergquist/codesandbox-vuepress/' },
+      { text: "Home", link: "/" },
+      { text: "Guide", link: "/guide/" },
+      { text: "Onset's website", link: "https://playonset.com/" },
+      { text: "Lakoya", link: "https://lakoya-rp.fr" }
     ]
   }
-}
+};
