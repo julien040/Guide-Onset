@@ -11,6 +11,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
+      { text: "Tutorials", link: "/guide/" },
       { text: "Guide", link: "/guide/" },
       { text: "Onset's website", link: "https://playonset.com/" },
       {
@@ -22,6 +23,29 @@ module.exports = {
         ]
       },
       { text: "Lakoya", link: "https://lakoya-rp.fr" }
+    ],
+    sidebar: [
+      {
+        title: "Setup Framework", // required
+        path: "/framework/setup/", // optional, which should be a absolute path.
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 2, // optional, defaults to 1
+        children: ["/"]
+      },
+      {
+        title: "Tutorials", // required
+        path: "/guide/", // optional, which should be a absolute path.
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 2, // optional, defaults to 1
+        children: ["/"]
+      },
+      {
+        title: "Use Framework", // required
+        path: "/framework/", // optional, which should be a absolute path.
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 2, // optional, defaults to 1
+        children: ["/"]
+      }
     ]
   },
   locales: {
